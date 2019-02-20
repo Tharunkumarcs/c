@@ -12,8 +12,8 @@ while(n!=0)
 	n=n/10;
 }
 if(a==b)
-printf("\nPalindrome");
+printf("\nyes");
 else
-printf("\nNot Palindrome");
+printf("\nNo");
 	return 0;
 } 

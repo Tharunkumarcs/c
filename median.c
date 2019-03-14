@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
+#include<math.h>
 int main()
 {
    int n,a[100],i,temp,j,k;

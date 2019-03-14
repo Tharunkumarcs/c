@@ -9,19 +9,19 @@ int main()
    {
        scanf("%d",&a[i]);
    }
-   for(i=1;i<=n;i++)
+   for(j=1;j<=n;j++)
    {
-      for(k=i+1;k<=n;k++)
+      for(k=j+1;k<=n;k++)
       {
         if(a[j]>=a[k])
         {
-        temp=a[i];
-        a[i]=a[k];
+        temp=a[j];
+        a[j]=a[k];
         a[k]=temp;
             
         }
       }
    
    }
-     printf(" %d\t",a[i/2]);
+     printf(" %d\t",a[j/2]);
 }
